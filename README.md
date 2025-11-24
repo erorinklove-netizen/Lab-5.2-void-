@@ -27,4 +27,3 @@ target_link_libraries(tests PRIVATE arctan_lib gtest_main)
 # Для автоматичного відкриття тестів CTest
 include(GoogleTest)
 gtest_discover_tests(tests)
-
